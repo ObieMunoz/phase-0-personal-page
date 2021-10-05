@@ -4,9 +4,8 @@
 #00ADB5 - Teal
 #EEEEEE - Off-white
 */
-
 body {
-    background-color: #222831;
+    background-color: #00ADB5;
 }
 
 nav {
@@ -20,8 +19,14 @@ nav {
 }
 
 nav a {
-    color: #00ADB5;
+    color: #EEEEEE;
     padding-right: 5%;
     padding-left: 5%;
     font-size:x-large;
+}
+
+.main-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
 }
