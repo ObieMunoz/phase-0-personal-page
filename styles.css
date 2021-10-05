@@ -4,72 +4,84 @@
 #00ADB5 - Teal
 #EEEEEE - Off-white
 */
+
+html {
+    font-family: sans-serif;
+}
+
 body {
-    background-color: #00ADB5;
     display: block;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    margin-top: 6rem;
-    margin-bottom: 12px;
-    margin-left: 6rem;
+    font-size: 1em;
+    line-height: 1.25;
+    font-weight: 300;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #EEEEEE;
+    margin-top: 45px;
 }
 
-#top-intro {
-    display: inline-block;
-    color: #000;
-    letter-spacing: -.15rem;
-    font-size: 2.5rem;
-    line-height: 1.2;
-    max-width: 700px;
-    vertical-align: top;
-}
- 
-p {
-    color: #000;
-    max-width: 500px;
-}
-
-nav {
-    text-align: center;
-    background-color:#393E46;
-    left: 0;
-    top: 0;
-    position: fixed;
-    width: 100vw;
-    border-bottom: 1px solid;
-}
-
-nav a {
-    color: #EEEEEE;
-    padding-right: 5%;
-    padding-left: 5%;
-    font-size:x-large;
-}
-
-.main-container {
-    max-width: 1000px;
+.container {
+    position: relative;
+    max-width: 1020px;
     margin: 0 auto;
-    padding: 0 40px;
+    box-sizing: border-box;
 }
 
-table tr td {
-    vertical-align: top;
-    padding-right: 40px;
-}
-
-hr {
-    width: 5%;
-    border: 0;
-    height: 0;
-    border-top: 5px solid #393E46;
+.columns:first-child {
     margin-left: 0;
+}
+
+.columns {
+    float: left;
+    box-sizing: border-box;
+    margin-left: 4%;
+    width: 48%;
+    text-align: justify;
 }
 
 #facepic {
     width: 200px;
-    display: inline-block;
     border: 3px solid #000;
+    float: left;
+}
+
+#top-intro {
+    text-align: right;
+}
+
+h1 {
+    color: #222831;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-color: #00adb5;
+    width: 100vw;
+    border-bottom: 1px solid;
+}
+
+.navbar a {
+    color: #393e46;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-size: x-large;
+    border-bottom: 1px solid #393e46;
+}
+
+.navbar a:hover {
+    color: #eeeeee;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
+#florida-flag {
+    width: 490px;
 }
