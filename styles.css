@@ -44,7 +44,7 @@ body {
     float: left;
 }
 
-#top-intro {
+.top-intro {
     text-align: right;
 }
 
@@ -83,5 +83,6 @@ h1 {
   clear: both; }
 
 #florida-flag {
-    width: 490px;
+    width: 325px;
+    margin-left: 25%;
 }
