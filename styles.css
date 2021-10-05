@@ -4,3 +4,24 @@
 #00ADB5 - Teal
 #EEEEEE - Off-white
 */
+
+body {
+    background-color: #222831;
+}
+
+nav {
+    text-align: center;
+    background-color:#393E46;
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    border-bottom: 1px solid;
+}
+
+nav a {
+    color: #00ADB5;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-size:x-large;
+}
