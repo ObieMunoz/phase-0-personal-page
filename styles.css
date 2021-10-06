@@ -69,6 +69,7 @@ h1, h2, ul {
     background-color: #00adb5;
     width: 100vw;
     z-index: 10;
+    border-bottom: 1px solid;
 }
 
 p a {
