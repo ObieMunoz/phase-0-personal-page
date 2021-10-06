@@ -43,6 +43,7 @@ body {
     border: 3px solid #000;
     float: left;
     transform: scaleX(-1);
+    margin-bottom: 10px;
 }
 
 #facepic:hover {
@@ -53,8 +54,10 @@ body {
     text-align: right;
 }
 
-h1 {
+h1, h2, ul {
     color: #222831;
+    margin: 0;
+    margin-top: 10px;
 }
 
 .navbar {
@@ -66,6 +69,10 @@ h1 {
     width: 100vw;
 }
 
+p a {
+    color: #186ef8;
+    text-decoration: none;
+}
 .navbar a {
     color: #393e46;
     padding-right: 5%;
@@ -111,4 +118,21 @@ h1 {
 #florida-flag:hover {
     transition: transform 60s;
     transform: rotate(7200deg);
+}
+
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    background: #eeeeee;
+    content: '⌇';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
 }
