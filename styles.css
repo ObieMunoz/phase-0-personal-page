@@ -64,7 +64,6 @@ h1 {
     text-align: center;
     background-color: #00adb5;
     width: 100vw;
-    border-bottom: 1px solid;
 }
 
 .navbar a {
@@ -72,12 +71,10 @@ h1 {
     padding-right: 5%;
     padding-left: 5%;
     font-size: x-large;
-    border-bottom: 1px solid #393e46;
 }
 
 .navbar a:hover {
     color: #eeeeee;
-    border-bottom: 1px solid #EEEEEE;
 }
 
 .footer {
@@ -109,4 +106,9 @@ h1 {
 #florida-flag {
     width: 325px;
     margin-left: 25%;
+}
+
+#florida-flag:hover {
+    transition: transform 60s;
+    transform: rotate(7200deg);
 }
