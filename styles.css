@@ -89,6 +89,7 @@ p a {
 .footer {
     position: fixed;
     bottom: 0;
+    left: 0;
     text-align: center;
     background-color: #00adb5;
     width: 100vw;
