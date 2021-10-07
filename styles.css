@@ -111,6 +111,11 @@ p a {
     text-decoration: none;
 }
 
+table a {
+    color: #186ef8;
+    text-decoration: none;
+}
+
 .navbar a {
     color: #393e46;
     padding-right: 5%;
