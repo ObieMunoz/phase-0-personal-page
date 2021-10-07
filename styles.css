@@ -63,16 +63,14 @@
     div .navbar a {
         font-size:medium;
     }
-    #florida-flag {
+    #florida-seal {
         float:none;
-        /* margin-left: 71.1665px; */
         margin-left: 15.3351%
     }
 }
 
 @media (min-width: 701px) {
-    #florida-flag {
-        /* margin-left: 82.297px; */
+    #florida-seal {
         margin-left: 15.3351%
     }
 }
@@ -153,12 +151,12 @@ img {
     transform: scaleX(1);
 }
 
-#florida-flag {
+#florida-seal {
     width: 325px;
     /* margin-left: 82.297px; */
 }
 
-#florida-flag:hover {
+#florida-seal:hover {
     transition: transform 60s;
     transform: rotate(7200deg);
 }
