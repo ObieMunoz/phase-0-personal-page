@@ -17,10 +17,8 @@ linkLink.innerText = "LinkedIn";
 linkLink.target = "_blank";
 homeLink.href = "./index.html";
 homeLink.innerText = "Home";
-homeLink.target = "_blank";
 projectLink.href = "./projects.html";
 projectLink.innerText = "Projects";
-projectLink.target = "_blank";
 
 if (document.title === "Obie Munoz | Home") {
     newNavbar.append(projectLink)
