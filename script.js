@@ -8,14 +8,19 @@ const projectLink = document.createElement("a");
 newNavbar.className = "navbar";
 githLink.href = "https://github.com/obiemunoz";
 githLink.innerText = "Github";
+githLink.target = "_blank";
 twitLink.href = "https://www.twitter.com/obiemunoz";
 twitLink.innerText = "Twitter";
+twitLink.target = "_blank";
 linkLink.href = "https://www.linkedin.com/in/obedmunozjr";
 linkLink.innerText = "LinkedIn";
+linkLink.target = "_blank";
 homeLink.href = "./index.html";
 homeLink.innerText = "Home";
+homeLink.target = "_blank";
 projectLink.href = "./projects.html";
 projectLink.innerText = "Projects";
+projectLink.target = "_blank";
 
 if (document.title === "Obie Munoz | Home") {
     newNavbar.append(projectLink)
