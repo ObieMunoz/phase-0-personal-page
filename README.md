@@ -1,7 +1,7 @@
 # My Personal Page
 #### PROJECT START DATE:	10/05/2021
 #### PROJECT END DATE:	10/06/2021
-#### PROJECT SITE: https://obiemunoz.github.io/phase-0-personal-page/index.html
+#### GITHUB PAGES LINK: https://obiemunoz.github.io/phase-0-personal-page/index.html
 
 <p align="center">This was the first website I truly made from scratch! The vast majority of things on here were learned directly from the pre-work curriculum at Flatiron School. Yes, there were several things I did have to research on my own to figure out; However, I have a feeling that's never going to change with programming. Now that I've got the basics down, I can reference other materials and actually understand them to implement what is described! This project helped me learn quite a bit and I'm happy with the result.</p>
 
