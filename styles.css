@@ -53,6 +53,18 @@
     text-align: right;
 }
 
+@media (max-width: 700px) {
+    .columns {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+    #florida-flag {
+        float:none;
+        /* margin-left: 71.1665px; */
+    }
+}
+
 /* Base Styles
 -------------------------------------------------- */
 html {
@@ -130,7 +142,7 @@ img {
 
 #florida-flag {
     width: 325px;
-    margin-left: 25%;
+    margin-left: 82.297px;
 }
 
 #florida-flag:hover {
