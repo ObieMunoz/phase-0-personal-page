@@ -29,6 +29,7 @@ This page incorporates all of the following in it:
   - On-Hover attributes
   - Image transforms
   - z-index modification
+  - @media reformatting on screen size change
 
 - JavaScript
   - Element creation
