@@ -7,8 +7,8 @@
 
 <table align="center">
   <tr>
-    <td><a href="#"><img src="./images/home-page.png" width="400"></a></td>
-    <td><a href="#"><img src="./images/project-page.png" width="400"></a></td>
+    <td><a href="#readme"><img src="./images/home-page.png" width="400"></a></td>
+    <td><a href="#readme"><img src="./images/project-page.png" width="400"></a></td>
   </tr>
 </table>
 
