@@ -147,3 +147,7 @@ hr:after {
     position: relative;
     top: -13px;
 }
+
+td:nth-child(2) {
+    padding-left: 50px;
+}
