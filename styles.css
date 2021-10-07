@@ -115,6 +115,9 @@ p a {
   display: table;
   clear: both; }
 
+img {
+    width: 100%;
+}
 #florida-flag {
     width: 325px;
     margin-left: 25%;
@@ -123,6 +126,9 @@ p a {
 #florida-flag:hover {
     transition: transform 60s;
     transform: rotate(7200deg);
+}
+ul li {
+    margin-top: 5px;
 }
 
 hr {
